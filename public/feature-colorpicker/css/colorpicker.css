@@ -1,0 +1,126 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* li {} */
+
+li button,
+li a,
+.dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.dropbtn {
+    border-radius: 50%;
+    /* border: 1px solid grey; */
+    margin: 0 100px;
+}
+
+/* .dropdown:hover .dropbtn {
+    background-color: red;
+} */
+
+li button:hover,
+li a:hover {
+    opacity: 1;
+}
+
+li.dropdown {
+    display: inline-block;
+    align-items: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin: 0 100px;
+}
+
+.dropdown-content button {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid grey;
+    opacity: 0.3;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.active {
+    fill-opacity: 1;
+    opacity: 1;
+}
+
+.opacity-off {
+    opacity: 1;
+    fill-opacity: 1;
+}
+
+.dropdown-item-1 {
+    background-color: #EC0000;
+}
+
+.dropdown-item-2 {
+    background-color: #3366FF;
+}
+
+.dropdown-item-3 {
+    background-color: #9E3667;
+}
+
+.dropdown-item-4 {
+    background-color: #1BB3BC;
+}
+
+.dropdown-item-5 {
+    background-color: #63BA68;
+}
+
+.dropdown-item-6 {
+    background-color: #FFCC38;
+}
+
+.dropdown-content a:hover {
+    /* background-color: #f1f1f1; */
+    opacity: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#primary-color {
+    width: 300px;
+    height: 300px;
+    background-color: #EC0000;
+    color: white;
+    text-align: center;
+}
+
+#secondary-color {
+    width: 300px;
+    height: 300px;
+    background-color: #EC0000;
+    opacity: 0.3;
+    color: white;
+    text-align: center;
+}
